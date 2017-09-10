@@ -1,0 +1,22 @@
+module.exports={
+  entry:__dirname+'/main.js',
+  output:{
+    path:__dirname+'/dist',
+    filename:'index.js'
+  },
+  watch:true,
+  devServer:{
+    contentBase:'./dist',
+    port:'8080',
+    inline:true
+  },
+  module:{
+    rules:[
+      {
+        test:/\.js$/,
+        loaders:['babel-loader'],
+        exclude:/node_modules/
+      }
+    ]
+  }
+}
