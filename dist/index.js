@@ -72,10 +72,10 @@
 
 var _test = __webpack_require__(1);
 
-console.log(_test.a, _test.b, _test.c); /*
-                                        程序入口
-                                        
-                                        */
+console.log(_test.a, _test.b, _test.c, _test.add); /*
+                                                   程序入口
+                                                   
+                                                   */
 
 document.write('<h1>' + _test.hello + '</h1>');
 
@@ -93,11 +93,15 @@ var a = 1,
     b = 2,
     c = 3;
 
-var hello = "Hello world";
+var hello = "世界，你好";
+var add = function add(a, b) {
+  return a + b;
+};
 exports.a = a;
 exports.b = b;
 exports.c = c;
 exports.hello = hello;
+exports.add = add;
 
 /***/ })
 /******/ ]);
