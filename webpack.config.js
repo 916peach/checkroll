@@ -14,9 +14,14 @@ module.exports={
     rules:[
       {
         test:/\.js$/,
-        loaders:['babel-loader'],
+        loaders:['jsx-loader'],
         exclude:/node_modules/
+      },
+      {
+        test:/\.css$/,
+        loaders:['style-loader','css-loader']
       }
+
     ]
   }
 }

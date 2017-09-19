@@ -1,0 +1,10 @@
+.tab{
+  width:80%;
+  height: auto;
+  padding:10px;
+  margin: 0 auto;
+  border:1px solid #ccc;
+}
+.tab tr td{
+  width: 33%;
+  }

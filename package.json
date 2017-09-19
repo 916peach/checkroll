@@ -4,8 +4,8 @@
   "description": "",
   "main": "webpack.config.js",
   "scripts": {
-    "start":"webpack",
-    "server":"webpack-dev-server --open",
+    "start": "webpack",
+    "server": "webpack-dev-server --open",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -19,9 +19,19 @@
   },
   "homepage": "https://github.com/916peach/checkroll#readme",
   "devDependencies": {
+    "PubSub": "^3.2.7",
     "babel-core": "^6.26.0",
     "babel-loader": "^7.1.2",
     "babel-preset-es2015": "^6.24.1",
+    "babel-preset-react": "^6.24.1",
+    "bootstrap": "^3.3.7",
+    "css-loader": "^0.28.7",
+    "jquery": "^3.2.1",
+    "jsx-loader": "^0.13.2",
+    "react": "^15.6.1",
+    "react-dom": "^15.6.1",
+    "redux": "^3.7.2",
+    "style-loader": "^0.18.2",
     "webpack": "^3.5.6",
     "webpack-dev-server": "^2.7.1"
   }

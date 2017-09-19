@@ -1,0 +1,43 @@
+[{
+  "dirname": "我的电脑",
+  "children": [{
+    "dirname": "c:",
+    "children": [{
+      "filename": "a.txt"
+    }, {
+      "dirname": "常用",
+      "children": [{
+        "filename": "b.txt"
+      }, {
+        "filename": "c.html"
+      }]
+    }, {
+      "dirname": "程序",
+      "children": [{
+        "filename": "教学.doc"
+      }, {
+        "dirname": "demo",
+        "children": [{
+          "filename": "base.js"
+        }]
+      }]
+    }]
+  }, {
+    "dirname": "d:",
+    "children": [{
+      "dirname": "影音",
+      "children": [{
+        "filename": "金刚.rmvb"
+      }, {
+        "filename": "冰河时代.rm"
+      }]
+    }, {
+      "dirname": "游戏",
+      "children": [{
+        "filename": "LOL.exe"
+      }, {
+        "filename": "俄罗斯方块.apk"
+      }]
+    }]
+  }]
+}]
