@@ -18,8 +18,10 @@ var Fbtn = require('./src/lxy/Fbtn');
 var FileFload=require('./src/filefload.js');
 var List = require('./src/lxy/list.js');
 var Hello = require('./src/Hello.js');
+var Group = require('./src/Group.js');
+var ConfigDatabase=require('./src/ConfigDatabase.js');
 ReactDOM.render(<div>
- <Hello msg="Hello World!!" />
+ <ConfigDatabase />
 
 
   </div>,document.getElementById('app'));
